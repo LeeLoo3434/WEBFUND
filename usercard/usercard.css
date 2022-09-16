@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+    padding-top: 50px;
+
+}
+
+.usercard{
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    width: 750px;
+    height: 350px;
+}
+
+.header{
+    height: 90px;
+    background-color: rgb(36, 150, 150);
+}
+
+.header img{
+    position: relative;
+    left: 30px;
+    top: 50px;
+    width: 100px;
+}
+
+
+.cardbody  {
+    padding: 60px 0px 0px 20px
+}
+
+
+.imgsmall{
+    width: 15px;
+}
+
+.location{
+    margin-bottom: 10px;
+
+    gap: 20px;
+    display: flex;
+}
+
+.gear > img{
+    height: 30px;
+    width: 30px;
+}
+
+.gear{
+    margin: 60px 0px 0px 15px;
+    display: flex;
+}
+
+.gear h5{
+    color: blue;
+    text-decoration: underline;
+    margin-top: 10px;
+    margin-left: 10px;
+}
