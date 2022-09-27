@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="yellowbelt.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img class="leaf" src="./images/assets/leaf.png" alt="leaf">
+            <h3> EasyBay</h3>
+            <input type="text" name="first_name">
+            <p>Sign In</p>
+            <img class="shoppingcart" onclick="alert(`Your Cart is empty!`)" src="./images/assets/cart-dark.png" alt="shopping_cart">
+            <!-- closing navbardiv -->
+        </div>
+<!-- closingnav bar div above -->
+        <div class="header">
+            <p> Aeonium</p>
+            <p>Andormischus</p>
+            <p>Agave</p>
+            <p>Aloe</p>
+            <p>Anacampseros</p>
+            <p>Aristaloe</p> 
+            <p>More...</p>
+            <!-- closing header div -->
+        </div>
+        <!-- closing header div above -->
+        <div class="mainbody">
+            <div class="title">
+                <h4>Your Source for Serious Succulent Specialties</h4>
+            </div>
+            <div class="topcontainer">
+                <div class="leftcolumn">
+                    <div class="bluebox">
+                    <div class="leftbox">
+                    <p> Discover succ-ulent varieties one pot or rack at a time!</p>
+                    <div>
+                        <img src="./images/assets/arrow-light.png" alt="arrow-light">
+                        <p>Discover </p>
+                    </div>
+                    
+                    </div>
+                    <img 
+                        onmouseover="changetoplants(this)" 
+                        onmouseout="changeback(this)" 
+                        class="succulents" 
+                        src="./images/assets/succulents-1.jpg" alt="succulents">
+                    </div>     
+                    <!-- left box closing div above -->
+                    <!-- right column closing div -->
+                </div>
+                <!-- left column closing divv ^ -->
+                <div class="rightcolumn">
+                    <img id="aloe" src="./images/assets/aloe-m.jpg" alt="aloe">
+                    <div class="rightbluebox">
+                        <p>Soothing aloe</p>
+                        <!-- closing blue blox div below -->
+                    </div>
+                    <!-- rightcolumn closing div -->
+                </div>
+                <!-- topcontainerclosing div (holds both right and left)-->
+            </div>
+            <div class="bottomcontainer">
+                <div class="images">
+                    <div>
+                        <img src="./images/assets/aeonium-s.jpg" alt="aeonium-s">
+                        <h5>Aeonium</h5>
+                    </div>
+                    <div>
+                        <img src="./images/assets/aloe-s.jpg" alt="aloe"> 
+                        <h5>Aloe</h5>
+                    </div>
+                    <div>
+                        <img src="./images/assets/cactus-s.jpg" alt="cactus">
+                        <h5>Cactus</h5>
+                    </div>
+                    <div>
+                        <img src="./images/assets/echeveria-s.jpg" alt="echeveria-s">
+                        <h5>Echeveria</h5>
+                    </div>
+                    <div>
+                        <img src="./images/assets/sedum-s.jpg" alt="sedum-s">
+                        <h5>Sedum</h5>
+                    </div>
+                    <div>
+                        <img src="./images/assets/sempervivum-s.jpg" alt="sempervivum-s">
+                        <h5>Sempervivum</h5>
+                    </div> 
+                <!-- closing imagesdiv below -->
+                </div>
+                <div class="bottomheader"> <div class="header"><span>I am an Alert!</span><span>×</span></div>
+                <p>This is some arbitrary alert text!, don't worry about what it actually says!</p>
+                <button class="I accept" onclick="goaway(this)">I accept</button>
+                    <!-- bottomheader closing div below -->
+                </div>
+                <!-- closing bottom container below -->
+            </div>
+            <!-- topcontainer closing div -->
+            <!-- MAIN BODY CLOSING DIV -->
+        </div>
+        <!-- MAIN BODY CLOSING DIV -->
+<!-- cosing container div -->
+    </div>
+    <!-- closing container div ^ -->
+<script src="yellowbelt.js"></script>
+</body>
+</html>

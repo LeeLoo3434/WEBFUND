@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="likes.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Network</h1>
+            <!-- closing header div -->
+        </div>
+        <h2> Your Feed </h2>
+        <div class="mainbody">
+            <div class="left">
+                <img src="./user-circle.png" alt="user-circle">
+                <p> <a href="#">add an avatar</a></p>
+                <h4>James Doe</h4>
+
+
+                <!-- left column closing div -->
+            </div>
+            <!-- right column -->
+            <div class="right column">
+        <!-- userbox -->
+                <div class="userbox">
+            <!-- top -->
+                    <div class="top"> 
+                        <h3>Neil M</h3>
+                        <p id="count"> 3 like(s)</p>
+                        <button class="likebutton" onclick="add1()">Like</button>
+                    </div>
+            <!-- bottom -->
+                    <div class="bottomline">
+                        <p> I just set up this new discord bot, let me know what you all think.</p>
+                    </div>
+            <!-- user box closing div -->
+                </div>
+                <!-- userbox two -->
+                <div class="userbox">
+                    <div class="top"> 
+                        <h3>Nichole K</h3>
+                        <p id="count2"> 3 like(s)</p>
+                        <button class="likebutton" onclick="addagain1()">Like</button>
+                    </div>
+                    <div class="bottomline">
+                        <p> Just finished my next comic, check it out.</p>
+                    </div>
+                </div>
+                    <!-- unerbox 3 -->
+                <div class="userbox">
+                    <div class="top"> 
+                        <h3>Nichole K</h3>
+                        <p id="count3"> 3 like(s)</p>
+                        <button class="likebutton" onclick="addneveragain1()">Like</button>
+                    </div>
+                    <div class="bottomline">
+                        <p> Just finished my next comic, check it out.</p>
+                    </div>
+        <!-- right column closing div -->
+                </div>
+            </div>
+        <!-- closing main body div -->
+        </div>
+        <!-- container closing div -->
+    </div>
+
+<script src="likes.js"></script>
+</body>
+</html>

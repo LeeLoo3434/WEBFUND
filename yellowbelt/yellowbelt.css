@@ -1,0 +1,117 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    padding: 30px;
+    width: 970px;
+}
+/* navbar */
+.navbar{
+    justify-content: space-around;
+    display: flex;
+    color: black;
+    background-color: white;
+}
+.leaf{
+    height: 30px;
+    background-color: teal;
+}
+.searchbar{
+    height: 30px;
+    width: 200px;
+}
+.shoppingcart{
+    height: 50px;
+}
+/* end of nav bar */
+/* header */
+.header{
+    border-bottom: solid;
+    justify-content: space-between;
+    display: flex;
+}
+.title{
+    text-align: center;
+}
+/* main body */
+.mainbody{
+    padding: 20px;
+}
+/* top container */
+.topcontainer{
+    display: flex;
+}
+
+/* right column */
+.leftcolumn{
+    width: 600px;
+}
+.leftbox{
+    height: 150px;
+    display: inline-block;
+    width: 250px;
+    padding: 20px;
+    background-color: rgb(33, 129, 129);
+    margin:90px -4px 10px 10px
+}
+.bluebox{
+    width: 500px;
+}
+.arroww{
+    width: 10px;
+}
+.succulents{
+    height: 141px;
+    width: 160px;
+
+}
+/* right column */
+.rightcolumn{
+    padding-top: 30px;
+    width: 250px;
+    height: 200px;
+}
+.rightbluebox{
+    margin: -4px 10px 10px 0px;
+    height: 50px;
+    width: 200px;
+    color: white;
+    background-color: teal;
+}
+#aloe{
+    height: 150px;
+    margin: 50px 100px 0px 0px ;
+    width:200px;
+}
+/* bottom container */
+
+.bottomcontainer{
+    margin-top: 10px;
+    padding: 20px;
+    height: 150px;
+    background-color: teal;
+}
+h5{
+    margin:0px 0px 20px 30px 
+}
+.images{
+    justify-content: space-around;
+    display: flex;
+}
+
+.images  img{
+    margin: 20px;
+    width: 80px;
+}
+
+.bottomheader{
+    width: inherit;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 4px 4px 4px grey;
+  /* change the position properties here */
+    position: relative; 
+bottom: 80px;
+}

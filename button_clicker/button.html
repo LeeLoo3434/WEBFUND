@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="button.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="navbar">
+            <h1>Dojonary</h1>
+            <input type="text" search="search">
+            <!-- logout function -->
+            <button class="login" onclick="clicked(this)"> Login</button>    
+        </div>
+        <div class="mainbody">
+        <!-- end nav bar -->
+        <div class="columnleft">
+            <div class="ninja_card">
+                <div class="ninjaheader">
+                    <h1> ninja</h1>
+                    <p><em>noun</em></p>
+                    <p>Plural:<em>ninjas</em></p> 
+                    <!-- adding alert to button -->
+                    <button class="likebutton" onclick="alert('This page says Ninja was liked')" >13 likes</button>
+                </div>
+                <div class="ninjacardp">
+                    <p> A practicioner skilled in the <br>
+                    Japanese art of ninjutsu </p>
+                </div>
+            </div>
+            <div class="ninja_card">
+                <div class="ninjaheader">
+                    <h1> ninja</h1>
+                    <p><em>noun</em></p>
+                    <p>Plural:<em>ninjas</em></p>
+                    <button class="likebutton">37 likes</button>
+                </div>
+                <div class="ninjacardp">
+                    <p> A programmer who breaks <br>
+                    down problems with zen-like<br>
+                    focus</p>
+                </div>
+            </div>
+            </div>
+        <div class="columnright">
+            <div class="box3">
+                    <h3>Dojonary is <br> defined by YOU </h3>
+                    <!-- function for add definition -->
+                    <button class="definition" onclick="goaway(this)" > Add Definition </button>
+
+                    <!-- closing box 3 div -->
+            </div>
+
+                <!-- closing column right div -->
+        </div>
+
+<!-- mainbody closing  -->
+        </div>
+<!-- maincontainer closing div -->
+</div>
+
+<script src="button.js"></script>
+</body>
+</html>
+

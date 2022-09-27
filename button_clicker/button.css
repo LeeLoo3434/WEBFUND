@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin: 0px; 
+}
+/* main container */
+.container{
+    width: 875px;
+}
+/* navbar */
+.navbar{
+    margin: 0px 50px 0px 40px;
+    justify-content: space-evenly;
+    display: flex;
+    background-color: gray;
+}
+.login{
+    width: 60px;
+    color: white;
+    background-color: blue;
+}
+/* end nav bar */
+.columnleft{
+    width: 500px;
+}
+
+
+
+.ninja_card{
+    padding-top: 10px;
+    padding-left: 10px;
+    text-align: center;
+    margin: 20px;
+    flex: 2;
+    display: flex;
+    height: 200px;
+    width: 450px;
+    border: solid;
+    background-color: white;
+}
+.ninjacardp{
+    margin: 75px;
+    flex: 1;
+}
+
+.likebutton{
+    height: 30px;
+    width: 65px;
+    background-color: yellow;
+    margin-top: 55px;
+    margin-left: 20px;
+}
+
+
+
+/* end  */
+/* box 3 */
+.box3{
+    text-align: center;
+    margin: 25px;
+    border: solid;
+    background-color: white;
+    height: 150px;
+    width: 250px;
+}
+.columnright{
+    display: flex;
+}
+.mainbody{
+    padding:20px;
+    display: flex;
+}
+.definition{
+    margin: 50px;
+    color: white;
+    background-color: green;
+}
+h2{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+

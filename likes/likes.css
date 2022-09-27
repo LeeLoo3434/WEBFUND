@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 970px;
+}
+/* header */
+
+.header{
+    margin: 40px;
+    color: white;
+    background-color: black;
+}
+h2{
+    text-align: center;
+}
+/* left column */
+.left{
+    border: solid;
+    width: 185px;
+    height: 250px;
+}
+/* mainbody */
+.left{
+    text-align: center;
+}
+.mainbody{
+    padding: 20px;
+    justify-content: space-around;
+    display: flex;
+}
+img{
+    width: 50px;
+    margin: 20px auto;
+}
+h4{
+    margin-top: 65px; 
+}
+
+/* start of user box column right*/
+.userbox{
+    border: solid;
+    width: 450px;
+    height: 185px;
+}
+
+.likebutton{
+    margin-right: 20px;
+    color: black;
+    background-color: yellow;
+    width: 50px;
+    height: 25px;
+}
+.top{
+    padding-top: 20px;
+    height: 125px;
+    width: 450px;
+    justify-content: space-between;
+    display: flex;
+}
+.bottomline{
+    margin-left: 50px;
+    text-align-last: center;
+    display: flex;
+    
+}
+h3{
+    margin-left: 20px;
+}
+/* end of userbox  */
